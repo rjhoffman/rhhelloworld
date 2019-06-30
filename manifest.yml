@@ -1,0 +1,8 @@
+---
+applications:
+  - name: richiehoffman
+    buildpacks:
+      - java_buildpack
+    path: target/springbootdemo-0.0.1-SNAPSHOT.jar
+    services:
+      - mysql
